@@ -1,7 +1,7 @@
 <?php
   session_start();
   $uid=$_SESSION['uid'];
-  $conn=mysqli_connect("localhost","root","","db.pleaseShare.com");
+  $conn=mysqli_connect("localhost","root","","pleaseshare");
   $fileName=$_POST['fileName'];
   $file=rand(1000,9999)."-".$_FILES["upload"]["name"];
   $tmpfile=$_FILES["upload"]["tmp_name"];

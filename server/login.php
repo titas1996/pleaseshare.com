@@ -1,6 +1,6 @@
 <?php
   session_start();
-  $conn=mysqli_connect("localhost","root","","db.pleaseShare.com");
+  $conn=mysqli_connect("localhost","root","","pleaseshare");
   if(!$conn) {
     echo "database error!!!";
     echo "not connected to database...please contact to admin";
